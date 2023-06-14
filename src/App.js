@@ -1,4 +1,6 @@
 import {useEffect} from 'react';
+import './App.css';
+import SearchIcon from './search.svg';
 
 const API_URL = 'http://www.omdbapi.com?apikey=73830b8e';
 
@@ -10,7 +12,7 @@ const App = () => {
 
         console.log(data.Search);
     };
-    
+
     useEffect(() => {
         searchMovies('Spiderman')
     }, []); 

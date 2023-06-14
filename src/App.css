@@ -163,7 +163,7 @@ h1 {
 
 .movie div:nth-of-type(3) span {
     font-family: "Raleway", sans-serif;
-    t   ext-transform: uppercase;
+    text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
